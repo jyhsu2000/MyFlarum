@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ab851c709cf207da5a6e44cfff841c3",
+    "content-hash": "25a637185259ab849295b4b276dc434c",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -3395,6 +3395,55 @@
             "time": "2018-10-25T15:19:41+00:00"
         },
         {
+            "name": "michaelbelgium/flarum-discussion-views",
+            "version": "v0.1.0-beta.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+                "reference": "e0c72186327f55f83db279dee7d69f75858ea6d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/e0c72186327f55f83db279dee7d69f75858ea6d2",
+                "reference": "e0c72186327f55f83db279dee7d69f75858ea6d2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Discussion views",
+                    "icon": {
+                        "name": "far fa-eye",
+                        "backgroundColor": "#88CC23",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/7339"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "michaelbelgium\\views\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael V.",
+                    "email": "michael@michaelbelgium.me"
+                }
+            ],
+            "description": "Add views to flarum discussions",
+            "time": "2018-11-30T14:30:15+00:00"
+        },
+        {
             "name": "middlewares/base-path",
             "version": "v1.1.0",
             "source": {
@@ -5472,7 +5521,8 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "csineneo/lang-traditional-chinese": 10
+        "csineneo/lang-traditional-chinese": 10,
+        "michaelbelgium/flarum-discussion-views": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
